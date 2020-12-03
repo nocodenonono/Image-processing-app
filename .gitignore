@@ -1,0 +1,16 @@
+artist/node_modules/@expo/vector-icons/Ionicons.js
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
+.idea
+*.png
+/artist/node_modules/

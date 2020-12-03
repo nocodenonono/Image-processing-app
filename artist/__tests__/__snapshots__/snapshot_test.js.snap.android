@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checks static rendering of home screen 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "column",
+        "resizeMode": "cover",
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        Object {
+          "bottom": 0,
+          "height": undefined,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": undefined,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 42,
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "top": "33%",
+        }
+      }
+    >
+      Journey To Art
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#68a0cf",
+          "borderRadius": 100,
+          "borderWidth": 1,
+          "marginLeft": 100,
+          "marginRight": 100,
+          "opacity": 1,
+          "top": "66%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 25,
+            "fontStyle": "italic",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Start
+      </Text>
+    </View>
+  </View>
+</View>
+`;
